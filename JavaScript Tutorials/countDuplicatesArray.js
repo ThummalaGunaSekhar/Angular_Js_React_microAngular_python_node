@@ -6,8 +6,8 @@ let cda = function (a, e) {
     for (let i of a) {
         c[i] = (c[i] || 0) + 1;
     }
-    console.log(c);
-    console.log(c[2])
+    console.log(c + " -- " + c[2]);
+   
  ///
     let cc = {}
     a.map((k) => {
