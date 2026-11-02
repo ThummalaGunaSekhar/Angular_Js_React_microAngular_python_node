@@ -3,7 +3,7 @@ let rTarr = [[1,2,3],[10,5,7],[1,6,9]];
 let r2D = rTarr.toReversed().map( r => r.toReversed());
 console.log(r2D);
 
-
+// commented using narmal loop
 let r2DD = function(r) {
     let rd = []; 
     for (let i = r.length - 1; i >= 0; i--) {
