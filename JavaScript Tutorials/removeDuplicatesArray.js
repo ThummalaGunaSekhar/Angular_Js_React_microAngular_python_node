@@ -25,11 +25,11 @@ let rmD1 = function(a){
 }
 rmD1(rarr);
 
-//    Set method
+//   spread operator using set method
 
 console.log(`using set method ==> ${[...new Set(rarr)]}`)
 
-// using   filter
+// using filter method to remove duplicates 
 
 let rmd = rarr.filter( ( un, ar ) => { 
     let on = rarr.indexOf(un) === ar;
