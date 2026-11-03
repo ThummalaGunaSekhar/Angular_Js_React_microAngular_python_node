@@ -14,7 +14,8 @@ let cda = function (a, e) {
         cc[k] = (cc[k] || 0) + 1;
     } )
     console.log(JSON.stringify(cc) +  " -- "+ cc[3]);
-///
+    
+/// forEach function will save and shown values and duplicate values
     let ccc = {}
     a.forEach((k) => {
         ccc[k] = (ccc[k] || 0) + 1;
