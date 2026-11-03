@@ -8,7 +8,7 @@ let cda = function (a, e) {
     }
     console.log(c + " -- " + c[2]);
    
- ///
+ ///  map function will save and shown values and duplicate values
     let cc = {}
     a.map((k) => {
         cc[k] = (cc[k] || 0) + 1;
