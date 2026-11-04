@@ -9,7 +9,7 @@ let sortArray = function(ar){
 
 
 
-    //
+    // using for loop
 
     for (let i = 0; i < ar.length; i++) {
         for ( j = 0; j < ar.length - i - 1; j++) { 
